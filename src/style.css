@@ -1,0 +1,176 @@
+/* Sansita Swashed */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+/* Shadows Into Light Two */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&family=Shadows+Into+Light+Two&display=swap');
+
+/* Rajdhani */ 
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Rajdhani:wght@300;400;500;600;700&family=Sansita+Swashed:wght@300..900&family=Shadows+Into+Light+Two&display=swap');
+
+/* Euphoria Script */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Euphoria+Script&family=Rajdhani:wght@300;400;500;600;700&family=Sansita+Swashed:wght@300..900&family=Shadows+Into+Light+Two&display=swap');
+
+/* Elsie */ 
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Elsie:wght@400;900&family=Euphoria+Script&family=Rajdhani:wght@300;400;500;600;700&family=Sansita+Swashed:wght@300..900&family=Shadows+Into+Light+Two&display=swap');
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+}
+
+/* UTILITY CLASSES */
+
+.nowrap{
+    white-space: nowrap;
+}
+
+/* GENERAL STYLING */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 1.5rem ;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 2%, 16%);
+}
+
+
+.hero{
+    background-image: url(../material/head-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.navbar{
+    width: 100vw;
+    background-color: hsla(0, 0%, 0%, 0.726);
+    position: fixed;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    padding: 0.2em;
+    margin: 0 2em;
+}
+
+.logo img{
+    width: 100px;
+}
+
+
+.navlinks{
+    margin:0 auto;
+}
+
+.navlinks button{
+    width: 10em;
+    margin: auto 2em;
+    padding: 0.8em;
+    border-radius: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+/* navbar closed */
+
+.hImg img{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    object-position: -2rem 6rem;
+}
+
+.welext{
+    padding: 16rem 5rem 0 16rem;
+    float: right;
+    position: relative;
+}
+
+.welext .t1{
+    color: rgb(204, 185, 160);
+    font-family: Sansita Swashed, Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 5rem;
+}
+
+.welext .t2{
+    color: rgb(189, 66, 189);
+    font-family: Sansita Swashed, Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.welext .span1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    margin: 0.2em 0 0 0.1em;
+}
+
+.welext p{
+    font-family: Shadows Into Light Two;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+}
+
+.welext .p1{
+    margin-top: 1rem;
+}
+
+.welext .p2{
+    padding-left: 16rem;
+}
+
+.des{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: hsla(0, 0%, 0%, 0.726);
+    color: whitesmoke;
+    line-height: 1.3em;
+}
+
+.des p{
+    font-size: 1rem;
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0.5em 8em;
+}
+
+/* Products */
+
+.product{
+    height: 500px;
+}
+
+.product h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    background-color: whitesmoke;
+}
