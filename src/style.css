@@ -90,6 +90,13 @@ body{
     color: whitesmoke;
     font-weight: bolder;
     border: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.navlinks button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 113, 134);
+    border: none;
 }
 /* navbar closed */
 
@@ -168,9 +175,21 @@ body{
     height: 500px;
 }
 
+.product{
+    background: url(../material/head-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
 .product h2{
     text-align: center;
     font-size: 3rem;
     font-weight: bolder;
     background-color: whitesmoke;
+}
+
+.overlay{
+    background-color: black;
+    height: inherit;
+    opacity: 0.6;
 }
