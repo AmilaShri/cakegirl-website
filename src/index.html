@@ -8,26 +8,26 @@
 </head>
 <body>
     <div class="contain">
-        <div class="hero">
+        <div class="hero" id="hero">
             <div class="navbar">
-                <div class="logo">
+                <div class="logo" onClick="document.getElementById('hero').scrollIntoView();">
                     <img src="../material/logo.png" alt="logo">
                 </div>
 
                 <div class="navlinks">
-                    <button>
+                    <button type="button" onClick="document.getElementById('hero').scrollIntoView();">
                         Home
                     </button>
                     
-                    <button>
+                    <button type="button" onClick="document.getElementById('product').scrollIntoView();">
                         Products
                     </button>
 
-                    <button>
+                    <button type="button" onClick="document.getElementById('contact-us').scrollIntoView();">
                         Contact Us
                     </button>
                         
-                    <button>
+                    <button type="button" onClick="document.getElementById('about-us').scrollIntoView();">
                         About Us
                     </button>
                 </div>
@@ -54,7 +54,7 @@
         </div>
         <!-- hero -->
 
-        <div class="product">
+        <div class="product" id="product">
             <h2>Products</h2>
 
             <div class="overlay">
@@ -100,7 +100,7 @@
                 </footer>
         </div>
 
-        <div class="contact-us">
+        <div class="contact-us" id="contact-us">
             <h2>Contact Us</h2>
 
             <div class="c-info">
@@ -134,6 +134,42 @@
             </div>
         </div>
 
+        <!-- About Us -->
+        <div class="about-us" id="about-us">
+            <h2>About Us</h2>
+
+            <div class="about-info">
+                <div class="info-left">
+                    <h3>Cake Artist - Bhashila Ekanayake</h3>
+
+                    <p class="info-p1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br> Accusantium, blanditiis.</p>
+
+                    <p class="info-p2">We are quite pround of our achievements</p>
+                    
+                    <p class="info-p3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley</p>
+
+                </div>
+
+                <div class="info-right">
+                    
+                </div>
+
+                <div class="sign">
+                    <img src="../material/sign-02.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        
     </div>
+    <!-- container -->
+    <footer class="main-footer">
+        <p>Copyrigtht reserved by Cake Girl <span>&copy;</span> 2024</p>
+    </footer>
 </body>
 </html>
